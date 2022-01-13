@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	// navigator : 브라우저(기능)
+
+	alert(navigator.userAgent);	// 브라우저 정보를 문자열로 나타냄
+	if (navigator.userAgent.indexOf("Android") != -1) {
+		alert("안드로이드");
+		location.hrdf = "PhoneC";
+	} else if (navigator.userAgent.indexOf("Android") != -1) {
+		alert("아이폰");
+		location.hrdf = "PhoneC";
+	} else {
+		alert("PC");
+		location.href ="C";
+	}
+	
+	
+	function init() {
+	let iBox = document.getElementById("i");
+	let i2Box = document.getElementById("i2");
+	
+	// html5
+	//	GPS가 있는 시스템 : GPS
+	//	GPS가 없는 상황 : IP주소
+	
+	navigator.geolocation.getCurrentPosition(function(dd) {
+		let lat = dd.coords.latitude;		// 위도
+		let lng = dd.coords.longitude;		// 경도
+		iBox.value = lat;
+		i2Box.value = lng;
+	});
+	}
+</script>
+
+</head>
+<body onload="init();">
+	<input id="i">
+	<input id="i2">
+</body>
+</html>
