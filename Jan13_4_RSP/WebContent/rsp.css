@@ -1,0 +1,50 @@
+@charset "EUC-KR";
+@font-face{
+	font-family: "soso";
+	src: url("Imsoso.ttf");
+}
+body{
+	background-image: url("nbnp.jpg");
+	background-size: 50%;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	background-color: transparent;
+	box-shadow: teal 3px 3px 5px;
+	border-spacing: 0px;
+	font-family: "soso";
+}
+th{
+	background-color: #E9FFE0;
+	color: #034F83;
+	font-size: 30pt;
+	height: 50pt;
+}
+#rspTbl .td1{
+	background-color: #C6FFFF;
+	color: #034F83;
+	font-size: 30pt;
+	height: 40pt;
+}
+img{
+	width: 250px;
+	height: 250px;
+	border: pink solid 5px;
+	border-radius: 20px;
+}
+#rspTbl .td2{
+	color: black;
+	font-size: 20pt;
+}
+#rspTbl .td3{
+	background-color: #E9FFE0;
+	color: black;
+	font-size: 30pt;
+	height: 50px;
+}
+a img{
+	border: pink solid 5px;
+	border-radius: 20px;
+}
