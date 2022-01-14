@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "BMJUA";
+	src: url("BMJUA.ttf")
+}
+
+#title {
+	font-family: "BMJUA";
+	background-color:#FAF4C0;
+	
+}
+
+#title tr{
+	font-family: "BMJUA";
+	
+}
+
+#game {
+	font-family: "BMJUA";
+	background-color:#FAF4C0;
+}
+
+#result {
+	font-family: "BMJUA";
+	background-color:#FAF4C0;
+}
+
+#result1 {
+	font-family: "BMJUA";
+	background-color:#FAF4C0;
+}
