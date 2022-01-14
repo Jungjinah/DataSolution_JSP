@@ -1,0 +1,38 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "Cafe24Ssurround";
+	src: url("Cafe24Ssurround.ttf")
+}
+
+#title {
+	font-family: "Cafe24Ssurround";
+	background-color:#F6F6F6;
+	
+}
+
+#picture1 {
+	background-color: #BCE55C;
+}
+
+#picture2 {
+	background-color: #FAE0D4;
+}
+
+#result .td1 {
+	font-family: "Cafe24Ssurround";
+
+}
+
+#result1 {
+	font-family: "Cafe24Ssurround";
+
+}
+
+#result2 {
+	font-family: "Cafe24Ssurround";
+
+}
+
+h1.C {
+	border: #FF0000 double 7px;}
