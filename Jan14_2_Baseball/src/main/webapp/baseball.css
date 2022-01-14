@@ -1,0 +1,19 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: "strong";
+	src: url("strong.ttf")
+}
+
+#table {
+	font-family: "strong";
+	
+}
+
+body {
+	background-image: url("baseball.jpg")
+}
+
+
+
+
