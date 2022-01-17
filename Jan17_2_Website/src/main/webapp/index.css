@@ -1,0 +1,18 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "Gotgam";
+	src: url("thisGotgam.ttf")
+}
+
+#siteTbl {
+	font-family: "Gotgam";
+	font-size: 40pt;
+}
+
+#indexTbl {
+	font-family: "Gotgam";
+}
+
+#commentTbl {
+	font-family: "Gotgam";
+}
