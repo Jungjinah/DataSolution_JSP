@@ -1,0 +1,75 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "Imsoso";
+	src: url("Imsoso.ttf");
+}
+
+body {
+	background-color: teal;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#siteTbl {
+	position: fixed;
+	top: -2px;
+	width: 100%;
+	height: 80px;
+}
+
+#siteTbl a {
+	font-family: "Imsoso";
+	color: pink;
+	font-size: 40pt;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+#siteTitleArea {
+	background-color: white;
+	width: 100%;
+}
+
+#siteContentArea {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Imsoso";
+	font-size: 20pt;
+	padding: 40px;
+	color: white;
+}
+
+#siteMenuTbl {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+
+#siteMenuTbl a {
+	font-family: "Imsoso";
+	color: pink;
+	font-size: 30pt;
+	font-weight: 900;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

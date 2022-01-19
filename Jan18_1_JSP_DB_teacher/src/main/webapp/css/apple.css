@@ -1,0 +1,133 @@
+@charset "EUC-KR";
+#appleTbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	width: 40%;
+	border: pink solid 3px;
+}
+
+#appleTbl td {
+	border: pink solid 3px;
+}
+
+#appleTbl a {
+	color: white;
+	font-size: 20pt;
+}
+
+#appleBoard {
+	height: 40px;
+}
+
+#dataTr:hover {
+	background-color: black;
+}
+
+
+#appleContext {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	text-align: center;
+}
+
+#appleContext th {
+	background-color: pink;
+	width: 50%;
+}
+
+#appleContext td {
+	width: 50%;
+	cursor: pointer;
+}
+
+#imgAp1 {
+	width: 30%;
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	height: 650px;
+}
+
+#imgAp2 {
+	width: 30%;
+	position: fixed;
+	right: 0px;
+	top: 64px;
+	height: 650px;
+}
+
+#slt {
+	font-family: "Imsoso";
+	font-size: 15pt;
+	background-color: teal;
+	color: white;
+	border: pink solid 3px;
+	border-radius: 5px 5px;
+	width: 220px;
+	text-align: center;
+}
+
+#inputt {
+	font-family: "Imsoso";
+	font-size: 18pt;
+	font-weight: 500;
+	color: white;
+	background-color: transparent;
+	border: pink solid 3px;
+	border-radius: 5px 5px;
+	text-align: center;
+}
+
+#textArea {
+	font-family: "Imsoso";
+	font-size: 18pt;
+	font-weight: 500;
+	color: white;
+	background-color: transparent;
+	border: pink solid 3px;
+	border-radius: 5px 5px;
+	text-align: center;
+	resize: none;	
+}
+
+::placeholder {
+	color: white;
+	text-align: center;
+}
+
+
+#btn {
+	font-family: "Imsoso";
+	font-size: 30pt;
+	font-weight: 700;
+	color: white;
+	background-color: transparent;
+	border: pink solid 3px;
+	border-radius: 5px 5px;
+}
+
+#applePageArea a {
+	text-decoration: none;
+	font-weight: 700;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
