@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "Cafe24Ssurround";
+	src: url("Cafe24Ssurround.ttf")
+}
+
+#titleTbl {
+	font-family: "Cafe24Ssurround";
+	font-size: 40pt;
+	background-color: #DAD9FF;
+	margin-left: auto;
+	margin-right: auto;
+	position: "static";
+	border-color: #A566FF;
+	border-width: 8px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#contentTbl {
+	font-family: "Cafe24Ssurround";
+	background-color: #FFD9FA;
+	margin-left: auto;
+	margin-right: auto;
+	position: "relative";
+	border-color: #F361DC;
+	padding: 40px;
+	border-style: dotted;
+	border-width: 8px;
+}
+
+img {
+	border-color: "black";
+}
+
+#indexTbl  {
+	font-family: "Cafe24Ssurround";
+	background-color: #D9E5FF;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #A566FF;
+	border-width: 8px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+#signTbl {
+	border-color: #5AAEFF;
+	border-width: 10px;
+	border-radius: 40px
+}
+
+#signTbl .sign {
+	background-color: #F6F6F6;
+	border-radius: 40px
+}
+
+#firstBoard {
+	background-color: #D9E5FF;
+	border-radius: 40px
+}
