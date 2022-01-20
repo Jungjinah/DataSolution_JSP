@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+@font-face{
+	font-family: "soso";
+	src: url("Imsoso.ttf");
+}
+#loginTbl{
+	margin-top: 10px;
+}
+#logintd{
+	font-family: "soso";
+	color: white;
+	font-size: 25pt;
+}
+#loginTbl input{
+	font-family: "soso";
+	border: pink solid 3px;
+	border-radius: 5px;
+	height: 20pt;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	width: 80%;
+	margin-top: 10px;
+}
+#loginTbl input::placeholder{
+	font-family: "soso";
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+}
+
+#loginTbl button{
+	font-family: "soso";
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+#memberUpdatePhoto{
+	width: 200px;
+}
