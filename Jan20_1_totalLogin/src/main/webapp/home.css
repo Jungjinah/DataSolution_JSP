@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: "tway_sky";
+	src: url("tway_sky.ttf")
+}
+
+#titleTbl {
+	font-family: "tway_sky";
+	font-size: 30pt;
+}
+
+#chartTbl {
+	font-family: "tway_sky";
+	font-size: 20pt;
+}
+#contentTbl	{
+	font-family: "tway_sky";
+	font-size: 10pt;
+	background-color: #EAEAEA;
+}
+#loginSite	{
+	font-family: "tway_sky";
+	font-style: white;
+	position: fixed;
+	top: 130px;
+	right: 20px;
+	border: #EAEAEA solid 3px;
+	border-radius: 3px 3px 5px;
+	
+}
