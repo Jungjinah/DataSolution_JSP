@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="yyy">
+<!-- 데이터베이스와 잘 접속이 되는지! -->
+	<select id="getAllFruit" resultType="com.ddargiratte.jan214.main.Fruit">
+		select * from fruit order by f_price <!-- fruit는 DB테이블에서 가져옴 -->
+	
+	</select>
+	<insert id="regFruit" parameterType="com.ddargiratte.jan214.main.Fruit">
+		<!-- prarameter로 왜 썼는지 좀있다가 알려줌 -->
+		insert into fruit values(#{f_name}, #{f_price})		<!-- JavaBean에 있는 값들 가져옴 -->
+		
+	
+	</insert>
+
+</mapper>
